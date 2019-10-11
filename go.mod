@@ -1,4 +1,4 @@
-module github.com/dev-to-api/goapi
+module github.com/hugmouse/godevto
 
 go 1.13
 
