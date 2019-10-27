@@ -14,7 +14,7 @@ type Articles []struct {
 	Published              bool         `json:"published"`
 	PublishedAt            time.Time    `json:"published_at"`
 	TagList                []string     `json:"tag_list"`
-	Tags                   []string     `json:"tags"`
+	Tags                   string       `json:"tags"`
 	Slug                   string       `json:"slug"`
 	Path                   string       `json:"path"`
 	URL                    string       `json:"url"`
